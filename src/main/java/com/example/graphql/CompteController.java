@@ -1,4 +1,4 @@
-package com.example.graphql.services;
+package com.example.graphql;
 
 
 import com.example.graphql.entities.Compte;
