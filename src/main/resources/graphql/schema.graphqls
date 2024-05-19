@@ -1,0 +1,14 @@
+type Query{
+    getAllComptes:[Compte]
+}
+
+type Compte {
+    id :ID ,
+    solde:Float ,
+    client: Client
+}
+
+type Client{
+    id :ID  ,
+    name : String
+}
